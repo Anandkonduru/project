@@ -1,0 +1,229 @@
+/* Add Your Styles Here */
+/* Add Your Styles Here */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* --------------- Main Header --------------- */
+.main-header{
+    background-image: url("../images/technology.JPG");
+    padding: 12px;
+    background-size: cover;
+    color: white;
+    text-align: right;
+}
+
+/* -------------- Main Navigation -------------- */
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #7a8565;
+}
+.main-nav a.active{
+    background-color: #5ec457;
+}
+
+/* ------------ Home News Section ---------- */
+.home-news-section{
+    text-align: center;
+}
+.home-news-article{
+    border: 2px solid black;
+    width: 330px;
+    height: 500px;
+    text-align: center;
+    display: inline-grid;
+    margin: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: all 0.5s;
+}
+.home-news-article:hover{
+    width: 340px;
+    box-shadow: 0 0 15px #5ec457;
+}
+.home-news-article img{
+    width: 100%;
+}
+.home-news-text{
+    padding: 5px;
+}
+
+/* ------------ Main News Section ------------- */
+.main-news-section{
+    width: 1100px;
+    margin: auto;
+}
+.main-news-article h2{
+    background: linear-gradient(to right, forestgreen,black,forestgreen);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow:  0 0 10px black;
+}
+.main-news-article p{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.zoom{
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+}
+.zoom img{
+    border-radius: 10px;
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+    opacity: 1.0;
+}
+
+/* -------------- Main Footer -------- */
+.main-footer{
+    background: linear-gradient(to right,#7a8565,black,#7a8565);
+    padding: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+.main-footer a{
+    color: orange;
+}
+
+/* ------------ Gallery Section ------------- */
+.gallery-section{
+    text-align: center;
+}
+.gallery-article{
+    border: 2px solid black;
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.gallery-article:hover{
+    box-shadow: 0 0 10px black;
+}
+.gallery-zoom{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+
+/* ------------- About Section ------------- */
+.about-section{
+    width: 1100px;
+    margin: auto;
+}
+.about-article{
+    background: white url("../images/image5.jpeg") no-repeat scroll bottom;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 15px black;
+}
+.company-images{
+    text-align: center;
+}
+.company-images img{
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 10px black;
+}
+
+/* --------------- Contact Section ------------------- */
+.contact-section{
+    background: white url("../images/image5.jpeg") no-repeat scroll top left;
+    padding: 10px;
+}
+.contact-article{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+.contact-article h2{
+    color: white;
+    padding-top: 20px;
+}
+.input-field{
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-bottom: 3px solid #899474;
+    background: transparent;
+    color: white;
+    width: 180px;
+}
+.input-field:focus{
+    border-bottom: 3px solid #5ec95a;
+}
+::placeholder{
+    color: lightgray;
+}
+textarea{
+    background: transparent;
+    margin: 10px;
+    border: 3px solid #7a8567;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+textarea:focus{
+    border: 3px solid #5ec95a;
+}
+input[type='submit']{
+    background-color: #7a8567;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 5px 0 15px 0;
+    padding: 10px 35px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+input[type='submit']:hover{
+    background-color: #5ec95a;
+    box-shadow: 0 0 15px black;
+}
